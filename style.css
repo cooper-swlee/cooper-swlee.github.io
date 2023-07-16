@@ -5,7 +5,7 @@
 /* <===================CSS VARIABLES===================> */
 
 :root{
-  --h1-size: 7rem;
+  --h1-size: 6rem;
   --h2-size: 2.1rem;
   --h3-size: 1.7rem;
   --text-size: 1.3rem;
@@ -53,9 +53,9 @@ h3{
   opacity: 1;
 }
 .text{
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Quicksand', 'Nanum Gothic', sans-serif;
   font-size: var(--text-size);
-  line-height: 1.3rem;
+  line-height: 2rem;
 }
 .huge-btn{
   display: block;
@@ -179,7 +179,7 @@ a:hover{
   justify-content: space-between;
 }
 .home-img{
-  background-image: url(https://firebasestorage.googleapis.com/v0/b/chuck-842bb.appspot.com/o/GurAmanWed%2Fpic1.jpg?alt=media&token=5dbf5af2-354b-464c-9db2-7da57b484eda);
+  background-image: url(./images/YUP_4818.JPG);
   background-size: cover;
   background-position: center;
 }
@@ -225,7 +225,7 @@ a:hover{
   margin: 8vh 0;
 }
 .timeline-img{
-  background-image: url(https://firebasestorage.googleapis.com/v0/b/chuck-842bb.appspot.com/o/GurAmanWed%2Fpic2.jpg?alt=media&token=7a0e5f94-d68e-4d32-bd3b-2a82b7acd40c);
+  background-image: url(./images/YUP_3754.JPG);
   height: 70vh;
   width: 30vw;
   background-position: center;
@@ -271,7 +271,7 @@ a:hover{
   width: 40vw;
   text-align: justify;
   font-size: var(--h3-size);
-  line-height: var(--h3-size);
+  line-height: 3rem;
 }
 @media (max-width:1000px){
   .h-reposition-container{
@@ -290,7 +290,7 @@ a:hover{
     width: 100%;
     margin: 5px 0;
     font-size: var(--text-size);
-    line-height: var(--text-size);
+    line-height: 3rem;
   }
 }
 
@@ -310,16 +310,27 @@ a:hover{
   background-position: center;
 }
 .gallery-img:nth-child(1){
-  background-image: url(https://firebasestorage.googleapis.com/v0/b/chuck-842bb.appspot.com/o/GurAmanWed%2Fpic3.jpg?alt=media&token=32a76585-cbeb-41f5-8921-6ad1ff60aa79);
-  background-position-x: right;
-}
-.gallery-img:nth-child(3){
-  background-image: url(https://firebasestorage.googleapis.com/v0/b/chuck-842bb.appspot.com/o/GurAmanWed%2Fpic4.jpg?alt=media&token=3bde5693-e5c8-412d-bd47-1ef972258406);
+  background-image: url(./images/alpaca.png);
+  background-position-x: left;
 }
 .gallery-img:nth-child(2){
-  background-position-y: top;
-  background-image: url(https://firebasestorage.googleapis.com/v0/b/chuck-842bb.appspot.com/o/GurAmanWed%2Fpic5.jpg?alt=media&token=d9ef9475-ec6d-41ca-8cfd-3e45b70139d3);
+  /*background-image: url(./images/2021-06-23_09_47_2545708149621392915.jpeg);*/
+  /*background-image: url(./images/IMG_7380.jpg);*/
+  background-image: url(./images/armas.png);
+
 }
+.gallery-img:nth-child(3){
+  /*background-image: url(./images/2020-11-30_00_21_2396843915249452749.jpg);*/
+  background-image: url(./images/train.png);
+  background-position-y: top;
+}
+.gallery-img:nth-child(4){
+  /*background-image: url(./images/2021-06-23_09_47_2545708149621392915.jpeg);*/
+  /*background-image: url(./images/IMG_7380.jpg);*/
+  background-image: url(./images/twelve.png);
+
+}
+
 @media (max-width:1000px){
   .gallery{
     flex-direction: column;
@@ -362,7 +373,7 @@ a:hover{
 .hands{
   height: 120vh;
   width: 100%;
-  background-image: url(https://firebasestorage.googleapis.com/v0/b/chuck-842bb.appspot.com/o/GurAmanWed%2Fpic6.jpg?alt=media&token=febecde7-9479-4a1e-8402-28f021228422);
+  background-image: url(./images/YUP_4289.JPG);
   background-size: cover;
   background-position-y: center;
   background-attachment: fixed;
@@ -418,7 +429,7 @@ a:hover{
   display: block;
   height: 100vh;
   width: 40vw;
-  background-image: url(https://firebasestorage.googleapis.com/v0/b/chuck-842bb.appspot.com/o/GurAmanWed%2Fpic7.jpg?alt=media&token=79b8d974-04ff-4b2d-bed5-82638399b34e);
+  background-image: url(./images/YUP_4594.JPG);
   background-size: cover;
   background-position-y: top;
   background-repeat: no-repeat;

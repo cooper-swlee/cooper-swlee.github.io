@@ -314,19 +314,14 @@ a:hover{
   background-position-x: left;
 }
 .gallery-img:nth-child(2){
-  /*background-image: url(./images/2021-06-23_09_47_2545708149621392915.jpeg);*/
-  /*background-image: url(./images/IMG_7380.jpg);*/
   background-image: url(./images/armas.png);
 
 }
 .gallery-img:nth-child(3){
-  /*background-image: url(./images/2020-11-30_00_21_2396843915249452749.jpg);*/
   background-image: url(./images/train.png);
   background-position-y: top;
 }
 .gallery-img:nth-child(4){
-  /*background-image: url(./images/2021-06-23_09_47_2545708149621392915.jpeg);*/
-  /*background-image: url(./images/IMG_7380.jpg);*/
   background-image: url(./images/twelve.png);
 
 }
@@ -486,4 +481,15 @@ footer{
 footer h2{
   font-size: 2rem;
   font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+
+}
+.map-icon {
+  width: 40px;
+  height: auto;
+  margin-left: 0px;
+  margin-right: 5px;
 }

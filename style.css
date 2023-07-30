@@ -394,6 +394,12 @@ a:hover{
   cursor: pointer;
   text-decoration: underline;
 }
+
+.parks{
+  color: dimgray;
+  text-decoration: underline;
+}
+
 @media (max-width:1000px){
   .stay-container{
     flex-direction: column;
@@ -492,4 +498,20 @@ a {
   height: auto;
   margin-left: 0px;
   margin-right: 5px;
+}
+
+.text_under {
+  position: relative;
+}
+
+.text_under::after {
+  content: "";
+  width: 100%;
+  height: 10px;
+  background: lightsteelblue;
+  position: absolute;
+  display: inline-block;
+  left: 0;
+  bottom: 1px;
+  z-index: -1;
 }

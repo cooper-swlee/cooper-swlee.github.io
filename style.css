@@ -179,7 +179,7 @@ a:hover{
   justify-content: space-between;
 }
 .home-img{
-  background-image: url(./images/main.jpeg);
+  background-image: url(./images/main1.jpeg);
   background-size: cover;
   background-position: center;
 }
@@ -225,7 +225,7 @@ a:hover{
   margin: 8vh 0;
 }
 .timeline-img{
-  background-image: url(./images/wide.jpeg);
+  background-image: url(./images/wide2.jpeg);
   height: 70vh;
   width: 30vw;
   background-position: center;
@@ -368,7 +368,7 @@ a:hover{
 .hands{
   height: 120vh;
   width: 100%;
-  background-image: url(images/kiss.JPG);
+  background-image: url(images/kiss3.JPG);
   background-size: cover;
   background-position-y: center;
   background-attachment: fixed;
@@ -430,7 +430,7 @@ a:hover{
   display: block;
   height: 100vh;
   width: 40vw;
-  background-image: url(./images/last.jpeg);
+  background-image: url(./images/last4.jpeg);
   background-size: cover;
   background-position-y: top;
   background-repeat: no-repeat;

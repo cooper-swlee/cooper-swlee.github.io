@@ -369,7 +369,7 @@ a:hover{
   height: 120vh;
   width: 100%;
   background-image: url(images/kiss.jpeg);
-  background-size: cover;
+  background-size: contain;
   background-position-y: center;
   background-position-x: center;
   background-attachment: fixed;

@@ -369,11 +369,17 @@ a:hover{
   height: 120vh;
   width: 100%;
   background-image: url(images/kiss.jpeg);
-  background-size: contain;
+  background-size: cover;
   background-position-y: center;
   background-position-x: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
+}
+
+@media (max-width:1570px){
+  .hands{
+    background-attachment:scroll
+  }
 }
 
 /* <===================STAY===================> */

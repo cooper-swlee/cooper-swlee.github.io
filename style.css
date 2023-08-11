@@ -310,19 +310,19 @@ a:hover{
   background-position: center;
 }
 .gallery-img:nth-child(1){
-  background-image: url(./images/alpaca.png);
+  background-image: url(./images/alpaca.jpeg);
   background-position-x: left;
 }
 .gallery-img:nth-child(2){
-  background-image: url(./images/armas.png);
+  background-image: url(./images/armas.jpeg);
 
 }
 .gallery-img:nth-child(3){
-  background-image: url(./images/train.png);
+  background-image: url(./images/train.jpeg);
   background-position-y: top;
 }
 .gallery-img:nth-child(4){
-  background-image: url(./images/twelve.png);
+  background-image: url(./images/twelve.jpeg);
 
 }
 
